@@ -10,6 +10,14 @@ import IMG4 from '../../assets/portfolio4.jpg'
 const data = [
   {
     id: 1,
+    image: IMG4,
+    title: 'Personal Portfolio',
+    subtitle: 'React',
+    github: 'https://github.com/josh-merrill/personal-portfolio',
+    demo: 'https://www.josh-merrill.com',
+  },
+  {
+    id: 2,
     image: IMG1,
     title: 'Art Collective',
     subtitle: 'Ruby on Rails',
@@ -17,7 +25,7 @@ const data = [
     demo: 'https://www.artcollective.live',
   },
   {
-    id: 2,
+    id: 3,
     image: IMG2,
     title: 'MoonLink',
     subtitle: 'Ruby on Rails/Web3',
@@ -25,20 +33,12 @@ const data = [
     demo: 'https://www.m00nlink.xyz/',
   },
   {
-    id: 3,
+    id: 4,
     image: IMG3,
     title: 'Art Marketplace',
     subtitle: 'Ruby on Rails',
     github: 'https://github.com/niznet89/rbnb',
     demo: 'http://art-marketplace-803.herokuapp.com/',
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Personal Portfolio',
-    subtitle: 'React',
-    github: 'https://github.com/josh-merrill/portfolio',
-    demo: 'https://www.josh-merrill.com',
   },
 ]
 const Portfolio = () => {
