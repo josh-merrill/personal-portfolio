@@ -1,4 +1,4 @@
-# Personal Portfolio
+# React Personal Portfolio
 This is my personal portfolio site built using React. The site showcases my skills, projects, and experience. The site is fully responsive and works well on desktop and mobile devices.
 
 Contact
