@@ -23,10 +23,10 @@ const Contact = () => {
           <article className="contact__option">
             <h1>Let's connect <BsArrowRight className='contact__option-icon' /></h1>
             <p>
-              Josh Merrill is a frontend developer and web designer based in Seattle. When he's not developing beautfiul websites, he enjoys spending time in nature, traveling and snowboarding.
+              I'm a Seattle-based <span className='text-green bold'>frontend developer</span> who brings my unique blend of expertise in <span className='text-green bold'>web design</span> and <span className='text-green bold'>content strategy</span> to create exceptional user interfaces with <span className='text-green bold'>React</span>.
             </p>
             <p>
-              If you’d like to chat about potential job opportunities, project ideas or anything related to web development, feel free to get in touch with him.
+              If you consider me a good candidate for an open position, or if you'd like to discuss a freelance project, or if you just want to say hello, feel free to contact me on social media or by email.
             </p>
           </article>
         </div>

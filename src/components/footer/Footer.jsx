@@ -7,7 +7,7 @@ import {FiGithub} from 'react-icons/fi'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>JOSH<span className='text-yellow'> / </span>M.</a>
+      <a href="#" className='footer__logo'><span className='text-yellow'>&#60;</span> JOSH M. <span className='text-yellow'>/&#62;</span></a>
 
 
       <div className="footer__socials">

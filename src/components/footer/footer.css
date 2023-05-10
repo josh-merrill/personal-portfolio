@@ -9,6 +9,10 @@ footer a {
   color: var(--color-bg);
 }
 
+footer a:hover {
+  color: var(--color-secondary);
+}
+
 .footer__logo {
   font-size: 2.25rem;
   font-weight: 800;
