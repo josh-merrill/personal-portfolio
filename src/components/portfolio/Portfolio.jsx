@@ -18,11 +18,11 @@ const data = [
   },
   {
     id: 2,
-    image: IMG1,
-    title: 'Art Collective',
-    subtitle: 'Ruby on Rails',
-    github: 'https://github.com/josh-merrill/PRIVATE-ART-803',
-    demo: 'https://www.artcollective.live',
+    image: IMG3,
+    title: 'Tenzies',
+    subtitle: 'React',
+    github: 'https://github.com/josh-merrill/react-tenzies',
+    demo: 'https://react-tenzies-dice-game.netlify.app/',
   },
   {
     id: 3,
@@ -34,11 +34,11 @@ const data = [
   },
   {
     id: 4,
-    image: IMG3,
-    title: 'Art Marketplace',
+    image: IMG1,
+    title: 'Art Collective',
     subtitle: 'Ruby on Rails',
-    github: 'https://github.com/niznet89/rbnb',
-    demo: 'http://art-marketplace-803.herokuapp.com/',
+    github: 'https://github.com/josh-merrill/PRIVATE-ART-803',
+    demo: 'https://www.artcollective.live',
   },
 ]
 const Portfolio = () => {
