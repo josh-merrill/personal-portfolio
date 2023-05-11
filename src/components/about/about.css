@@ -72,9 +72,9 @@
 }
 
 .about__content {
-  margin-top: 3rem;
   font-size: 1.25rem;
   line-height: 3rem;
+  align-self: center;
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========= */
