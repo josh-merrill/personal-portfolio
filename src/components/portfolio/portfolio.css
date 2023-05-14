@@ -60,4 +60,8 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+
+  .portfolio__item h3, .portfolio__item small {
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+  }
 }
