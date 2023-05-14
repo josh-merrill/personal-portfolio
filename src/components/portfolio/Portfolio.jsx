@@ -18,19 +18,19 @@ const data = [
   },
   {
     id: 2,
+    image: IMG2,
+    title: 'Quizzical',
+    subtitle: 'React',
+    github: 'https://github.com/josh-merrill/react-quizzical',
+    demo: 'https://react-quizzical-game.netlify.app/',
+  },
+  {
+    id: 3,
     image: IMG3,
     title: 'Tenzies',
     subtitle: 'React',
     github: 'https://github.com/josh-merrill/react-tenzies',
     demo: 'https://react-tenzies-dice-game.netlify.app/',
-  },
-  {
-    id: 3,
-    image: IMG2,
-    title: 'MoonLink',
-    subtitle: 'Ruby on Rails/Web3',
-    github: 'https://github.com/niznet89/twt-bio',
-    demo: 'https://www.m00nlink.xyz/',
   },
   {
     id: 4,

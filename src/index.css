@@ -21,6 +21,7 @@
   --color-light: rgba(255, 255, 255, 0.6);
   --color-gradient: linear-gradient(180deg, var(--color-secondary), transparent);
   --transition: all 400ms ease;
+  --transform: scale(1.02);
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
