@@ -11,9 +11,10 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_h5guq56', 'template_5u8lm2h', form.current, 'BLtzHbbL8dr1ar4d5')
+    emailjs.sendForm('service_73htloi', 'template_5dloqiw', form.current, 'yjKiiWeFFvwY6rZFF')
 
     e.target.reset()
+    alert('Your message has been sent successfully!')
   };
 
   return (
