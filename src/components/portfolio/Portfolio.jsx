@@ -10,11 +10,11 @@ import IMG4 from '../../assets/portfolio4.jpg'
 const data = [
   {
     id: 1,
-    image: IMG4,
-    title: 'Personal Portfolio',
+    image: IMG1,
+    title: 'Natural Wine Club',
     subtitle: 'React',
-    github: 'https://github.com/josh-merrill/personal-portfolio',
-    demo: 'https://www.josh-merrill.com',
+    github: 'https://github.com/josh-merrill/natural-wine-club',
+    demo: 'https://naturalwineclub.co',
   },
   {
     id: 2,
@@ -34,11 +34,11 @@ const data = [
   },
   {
     id: 4,
-    image: IMG1,
-    title: 'Art Collective',
-    subtitle: 'Ruby on Rails',
-    github: 'https://github.com/josh-merrill/PRIVATE-ART-803',
-    demo: 'https://www.artcollective.live',
+    image: IMG4,
+    title: 'Personal Portfolio',
+    subtitle: 'React',
+    github: 'https://github.com/josh-merrill/personal-portfolio',
+    demo: 'https://www.josh-merrill.com',
   },
 ]
 const Portfolio = () => {
