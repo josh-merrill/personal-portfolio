@@ -8,7 +8,6 @@ const About = () => {
   return (
     <section id="about">
       <div className="section__header">
-        <h5>GET TO KNOW ME</h5>
         <h2>About Me</h2>
       </div>
       <div className="container about__container">

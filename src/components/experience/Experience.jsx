@@ -12,7 +12,6 @@ const Experience = () => {
   return (
     <section id="experience">
       <div className="section__header">
-        <h5>DEVELOPMENT</h5>
         <h2>Experience</h2>
       </div>
       <div className="container experience__container">

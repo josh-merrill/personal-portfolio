@@ -22,7 +22,7 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <h1>Let's connect <BsArrowRight className='contact__option-icon' /></h1>
+            <h2 className='text-green'>Let's connect <BsArrowRight className='contact__option-icon' /></h2>
             <p>
               I'm a Seattle-based <span className='text-green bold'>frontend developer</span> who brings my unique blend of expertise in <span className='text-green bold'>web design</span> and <span className='text-green bold'>content strategy</span> to create exceptional user interfaces with <span className='text-green bold'>React</span>.
             </p>
