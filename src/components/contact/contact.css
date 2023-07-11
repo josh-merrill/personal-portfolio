@@ -69,6 +69,15 @@ input, textarea, .btn-primary {
   color: var(--color-dark);
 }
 
+form input:focus, form textarea:focus, form .btn-primary:focus {
+  outline: none;
+  border: 2px solid var(--color-secondary);
+}
+
+form .btn-primary:hover {
+  transform: var(--transform);
+}
+
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========= */
 @media screen and (max-width: 1024px) {
   .container.contact__container {

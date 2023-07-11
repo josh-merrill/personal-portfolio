@@ -67,6 +67,10 @@ h5:nth-of-type(2) {
   font-size: 2.2rem;
 }
 
+.scroll__down:hover {
+  transform: rotate(90deg) var(--transform);
+}
+
 .scroll__down-icon {
   padding-top: 16px;
 }
