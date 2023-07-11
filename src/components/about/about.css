@@ -43,7 +43,6 @@
 .about__card {
   display: flex;
   gap: 1.5rem;
-  display: flex;
   align-items: center;
   justify-content: left;
 }
@@ -102,7 +101,7 @@
 
 
   .about__cards {
-    margin-top: 3rem;
+    margin: 3rem 0 0 0;
     order: 1;
   }
 
@@ -136,7 +135,7 @@
   }
 
   .about__cards {
-    display: block;
+    margin-right: 0rem;
   }
 
   .about__card {
