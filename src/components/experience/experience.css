@@ -11,9 +11,10 @@
 }
 
 .experience__content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 2rem;
 }
 
 .experience__details {
@@ -42,14 +43,16 @@
 
 .experience__container > div {
   width: 80%;
-  padding: 2rem;
+  padding: 2rem 1rem;
   margin: 0 auto;
 }
 
 .experience__content {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(2,2fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 2rem;
 }
 }
 
@@ -59,7 +62,6 @@
   .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
   }
 
   .experience__container > div {
