@@ -6,8 +6,7 @@
 
 .about__container {
   display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .about__me {
@@ -38,14 +37,10 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  margin-right: 5rem;
 }
 
 .about__card {
-  border: 1px solid var(--color-light);
-  border-radius: 1rem;
-  padding: 1rem;
-  box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
-  position: relative;
   display: flex;
   gap: 1.5rem;
   display: flex;
@@ -54,11 +49,9 @@
 }
 
 .about__icon {
-  color: var(--color-white);
-  background: var(--color-secondary);
+  color: var(--color-primary);
   width: 100px;
   height: 100px;
-  border-radius: 50%;
   padding: 35px;
 }
 
@@ -75,10 +68,16 @@
   font-size: 1.25rem;
   line-height: 3rem;
   align-self: center;
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
 
 .about__content p {
   font-size: 1.25rem;
+}
+
+.about__text {
+  width: max-content;
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========= */
@@ -93,11 +92,20 @@
     margin: 2rem auto 4rem;
   }
 
-  /* .about__content p {
-  } */
+
+  .about__cards {
+    margin-right: 0;
+  }
+
+  .about__card {
+    justify-content: center;
+  }
 
   .about__content {
-    margin-top: 5rem;
+    margin-top: 3rem;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
   }
 
   .btn__wrapper {
@@ -120,12 +128,4 @@
     margin-bottom: 1rem;
   }
 
-  .about__content {
-    text-align: center;
-    margin-top: 3rem;
-  }
-
-  .about__content p {
-    margin: 1.5rem 0;
-  }
 }
