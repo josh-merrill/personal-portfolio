@@ -9,9 +9,6 @@ const About = () => {
   return (
     <section id="about">
       <Reveal>
-        <div className="section__header">
-          <h2>About Me</h2>
-        </div>
         <div className="container about__container">
           <div className="about__cards">
             <article className="about__card">
@@ -38,10 +35,13 @@ const About = () => {
           </div>
 
           <div className="about__content">
+            <div className="about__header">
+              <h2>About Me</h2>
+            </div>
             <p>
               I’m a frontend web developer passionate about building beautiful
               websites that people love to use. With over 6+ years of experience
-              in the tech, healthcare and aviation industries, I have built a
+              in the tech, healthcare and aviation industries, I've built a
               reputation for helping companies achieve their business outcomes
               by creating digital experiences and end-to-end communication
               programs that increase employee engagement and customer
