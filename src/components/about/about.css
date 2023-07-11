@@ -83,6 +83,10 @@
   font-size: 1.25rem;
 }
 
+.about__content p:not(.bold) {
+  margin-bottom: 1rem;
+}
+
 .about__text {
   width: max-content;
 }

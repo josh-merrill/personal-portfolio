@@ -114,6 +114,14 @@ header h5, .section__header h5 {
   font-weight: 900;
 }
 
+.underline__yellow {
+  text-decoration: none;
+  box-shadow: inset 0 -7px 0 #EDBF48, 0 2px 0 #EDBF48;
+  transition: box-shadow .3s;
+  color: inherit;
+  overflow: hidden;
+}
+
 a {
   color: var(--color-primary);
   transition: var(--transition);

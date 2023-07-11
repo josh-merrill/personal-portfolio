@@ -33,12 +33,12 @@ const Contact = () => {
               </h2>
               <p>
                 I'm a Seattle-based{" "}
-                <span className="text-green bold">frontend developer</span> who
+                <span className="bold underline__yellow">frontend developer</span> who
                 brings my unique blend of expertise in{" "}
-                <span className="text-green bold">web design</span> and{" "}
-                <span className="text-green bold">content strategy</span> to
+                <span className="bold underline__yellow">web design</span> and{" "}
+                <span className="bold underline__yellow">content strategy</span> to
                 create exceptional user interfaces with{" "}
-                <span className="text-green bold">React</span>.
+                <span className="bold underline__yellow">React</span>.
               </p>
               <p>
                 If you consider me a good candidate for an open position, would

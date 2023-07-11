@@ -3,6 +3,7 @@ import "./about.css";
 import { HiOutlineCode } from "react-icons/hi";
 import { BiPaint } from "react-icons/bi";
 import { BiBookContent } from "react-icons/bi";
+import { BsArrowDown } from "react-icons/bs";
 import Reveal from "../../utils/Reveal";
 
 const About = () => {
@@ -42,10 +43,14 @@ const About = () => {
               I’m a frontend web developer passionate about building beautiful
               websites that people love to use. With over 6+ years of experience
               in the tech, healthcare and aviation industries, I've built a
-              reputation for helping companies achieve their business outcomes
-              by creating digital experiences and end-to-end communication
-              programs that increase employee engagement and customer
-              satisfaction.
+              reputation for helping companies drive results by improving
+              digital experiences and organizational processes using tools and
+              technologies such as React, JavaScript, HTML, CSS, Figma, Webflow
+              and more.
+            </p>
+            <p className="bold">
+              Learn more about my skills and experience{" "}
+              <span className="underline__yellow">below</span>. <BsArrowDown />
             </p>
           </div>
         </div>
