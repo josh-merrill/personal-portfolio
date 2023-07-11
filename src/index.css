@@ -124,7 +124,7 @@ a:hover {
   transform: var(--transform);
 }
 
-a:focus, .btn:focus, input:focus {
+.btn:focus, input:focus {
   outline: none;
   border: 2px solid var(--color-secondary);
 }
