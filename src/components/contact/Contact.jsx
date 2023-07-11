@@ -41,10 +41,9 @@ const Contact = () => {
                 <span className="text-green bold">React</span>.
               </p>
               <p>
-                If you consider me a good candidate for an open position, or if
-                you'd like to discuss a freelance project, or if you just want
-                to say hello, feel free to contact me on social media or by
-                email.
+                If you consider me a good candidate for an open position, would
+                like to discuss a freelance project, or just say hello, feel
+                free to contact me on social media or by email.
               </p>
             </article>
           </div>
