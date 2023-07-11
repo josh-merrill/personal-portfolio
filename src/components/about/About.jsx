@@ -13,21 +13,21 @@ const About = () => {
       <div className="container about__container">
         <div className="about__cards">
           <article className="about__card">
-            <HiOutlineCode className="about__icon background-green" />
+            <HiOutlineCode className="about__icon" />
             <div className="about__text">
               <h3 className="text-green">Web Development</h3>
               <p>3+ years of experience</p>
             </div>
           </article>
           <article className="about__card">
-            <BiPaint className="about__icon background-yellow" />
+            <BiPaint className="about__icon" />
             <div className="about__text">
               <h3 className="text-green">Web Design</h3>
               <p>5+ years of experience</p>
             </div>
           </article>
           <article className="about__card">
-            <BiBookContent className="about__icon background-orange" />
+            <BiBookContent className="about__icon" />
             <div className="about__text">
               <h3 className="text-green">Content Strategy</h3>
               <p>6+ years of experience</p>
