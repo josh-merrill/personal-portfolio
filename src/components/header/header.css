@@ -51,7 +51,7 @@ h5:nth-of-type(2) {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 2rem;
+  margin-top: 2.75rem;
   border-radius: 220px 220px 0 0;
   overflow: hidden;
   padding: 3rem 0rem 0rem 0rem;
