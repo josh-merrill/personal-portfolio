@@ -41,11 +41,11 @@ const About = () => {
             </div>
             <p>
               I’m a frontend web developer passionate about building beautiful
-              websites that people love to use. With over 6+ years of experience
+              websites that people love to use. With over 8 years of experience
               in the tech, healthcare and aviation industries, I've built a
               reputation for helping companies drive results by improving
               digital experiences and organizational processes using tools and
-              technologies such as React, JavaScript, HTML, CSS, Figma, Webflow
+              technologies including React, JavaScript, HTML, CSS, Figma, Webflow
               and more.
             </p>
             <p className="bold">
