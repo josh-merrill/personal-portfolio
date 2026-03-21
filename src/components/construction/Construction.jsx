@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Github, Linkedin } from 'lucide-react';
+import logo from '../../assets/logo.png';
 import './construction.css';
 
 const ConstructionUpdate = () => {
@@ -10,6 +11,14 @@ const ConstructionUpdate = () => {
       <div className="dot-pattern"></div>
 
       <div className="under-construction__container">
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <img src={logo} alt="Logo" className="under-construction__logo" />
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -40,14 +49,6 @@ const ConstructionUpdate = () => {
 
           <div className="under-construction__socials">
             <a
-              href="https://github.com/josh-merrill"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-link"
-            >
-              <Github />
-            </a>
-            <a
               href="https://www.linkedin.com/in/joshmmerrill/"
               target="_blank"
               rel="noopener noreferrer"
@@ -55,10 +56,18 @@ const ConstructionUpdate = () => {
             >
               <Linkedin />
             </a>
+            <a
+              href="https://github.com/josh-merrill"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <Github />
+            </a>
           </div>
 
           <p className="under-construction__launch">
-            Expected launch: Early 2025
+            Expected launch: Early 2026
           </p>
         </motion.div>
       </div>
